@@ -23,7 +23,7 @@ namespace Aufgabe_5
 
             else
             {
-                Console.WriteLine("Das sind " +  runden + " runden. Bereit für den Lauf?(ja/nein)");
+                Console.WriteLine("Das sind " + runden + " runden. Bereit für den Lauf?(ja/nein)");
                 string bereit = Console.ReadLine();
 
                 if (bereit == "ja" || bereit == "Ja")
@@ -32,7 +32,7 @@ namespace Aufgabe_5
                     while (rundenGemacht <= runden)
                     {
                         Console.WriteLine("Du läufst Runde " + rundenGemacht + ".");
-                        rundenGemacht ++;
+                        rundenGemacht++;
                     }
                     Console.WriteLine("Du hast es geschafft!");
                 }
